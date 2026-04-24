@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formlário - Entra21</title>
+    </head>
+    <body>
+        <form action="envar.php" method="post">
+            <div>
+                <label for="nome_completo">Nome Completo:</label>
+                <input type="text" name="nome_completo" id="nome_completo" required>
+            </div>
+            <div>
+                <label for="email_usuario">Email</label>
+                <input type="email" name="email_usuario" id="email_usuario" required>
+            </div>
+            <div>
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="idade" required value="18" readonly>
+            </div>
+            <hr>    
+            <div>
+                <label for="cidade">Cidade</label>
+                <select name="cidade" id="cidade"> 
+                    <option value="1">Balneário Camboriú</option>
+                    <option value="2">Itajaí</option>
+                    <option value="3">Itapema</option>
+                    <option value="4">Camboriú</option>
+                    <option value="5">Blumenau</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" maxlength="10"></textarea>
+            </div>
+            <div>
+                <label for="label_sexo">Sexo</label>
+            <div>
+            </div>
+                <input type="radio" name="sexo" id="sexo_m" value="m" checked>
+                <label for="sexo_m">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="sexo_f">
+                <label for="sexo_f">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="sexo_o">
+                <label for="sexo_o">Outro</label>
+            </div>
+            <div>
+                <button type="submit">Enviar dados</button>
+            </div>
+        </form>    
+    </body>
+</html>
