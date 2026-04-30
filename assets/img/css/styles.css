@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+/* CABEÇALHO PRINCIPAL*/
+.main-header {
+    background-color: rgb(72, 139, 228);
+    display: flex;
+    padding: 20px;
+}
+.main-header img{
+    width: 150px;
+}
+
+.main-header ul {
+    display: flex;
+}
+
+/* CONTEUDO PRINCIPAL*/
+.main-content {
+
+}
+/*RODAPE PRNCIPAL*/
+.main-footer {
+    
+}
